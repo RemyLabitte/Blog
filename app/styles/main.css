@@ -1,0 +1,77 @@
+html, body {
+  font-family: roboto;
+  margin: 0;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  font-size: 25px;
+}
+
+nav {
+  background-color: #455a64  !important;
+  box-shadow: 0 2px 2px 0#78909c, 0 2px 2px 0 #90a4ae, 0 2px 2px 0 #b0bec5 , 0 2px 2px 0 #cfd8dc  !important;
+  height: 80px !important;
+  line-height: 80px !important;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.logo {
+  max-width: 28% !important;
+}
+
+
+.titre-provisoire {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 75px;
+  color: white;
+}
+
+.diaporama {
+  height: 200px;;
+  background-image: url("/images/web.jpg");
+}
+
+/*Custom main page*/
+.tutoriels,
+.formations,
+.news {
+  padding-top:  15px;
+  padding-bottom:  15px;
+  display: block;
+}
+
+/*Custom Connexion Page*/
+.authentification{
+  background-color: #455a64;
+  border: 1x solid #455a64;
+  border-radius: 5px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid gray;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive: Portrait tablets and up */
+
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+}
